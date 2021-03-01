@@ -7,11 +7,11 @@ Para este taller se desarrolló un prototipo mínimo que demuestra capcidades re
 ### APP WEB
 Aqui puede acceder a la aplicacion web para este proyecto.
 
-[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://enigmatic-waters-77275.herokuapp.com/index)
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://safe-meadow-39595.herokuapp.com/springapp/hello)
 
 ### Integración Continua
 
-[![CircleCI](https://circleci.com/gh/StivenVanegas/AREP-TALLER2.svg?style=svg)](https://app.circleci.com/pipelines/github/StivenVanegas/AREP-TALLER2)
+[![CircleCI](https://circleci.com/gh/StivenVanegas/AREP-TALLER4.svg?style=svg)](https://app.circleci.com/pipelines/github/StivenVanegas/AREP-TALLER4)
 
 ### REQUISITOS
 * Java
@@ -24,6 +24,8 @@ Aqui puede acceder a la aplicacion web para este proyecto.
    `mvn clean install`
 
 ### EXECUTE
+
+`java -cp 'target/classes' edu.escuelaing.arem.picospring.PicoSpringBoot edu.escuelaing.arem.picospringdemo.HelloController edu.escuelaing.arem.picospringdemo.BookService`
 
 ### JAVADOC
 
