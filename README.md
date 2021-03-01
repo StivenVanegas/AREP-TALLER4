@@ -1,17 +1,8 @@
 ## Taller de Introducción a Heroku
 
-En este proyecto se realizo una aplicacion web para calcular la desviación estándar y media de un conjunto de n números reales. Usando como estructura de datos una LinkedList.
+Para este taller se construyó un servidor Web (tipo Apache) en Java. El servidor es capaz de entregar páginas html. Igualmente el servidor provee un framework IoC para la construcción de aplicaciones web a partir de POJOS. El servidor puede atender múltiples solicitudes no concurrentes.
 
-### VISIÓN GENERAL
-**Spark** Framework es un conjunto de librerías para el desarrollo de aplicaciones web en Java inspirado en el framework Sinatra para Ruby. Spark incluye por defecto el servidor de aplicaciones Jetty de manera que las aplicaciones web creadas con Spark pueden lanzarse como cualquier programa Java.
-
-**Heroku** es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación.
-
-La **media** es el promedio de un conjunto de datos. El promedio es la medida de ubicación más común para un conjunto de números. El promedio ubica el centro de los datos.
-
-La **desviación estándar** es una medida de la extensión o dispersión de un conjunto de datos. Cuanto más dispersos estén los valores, mayor será la desviación estándar.
-
-Las **LinkedList** son un tipo de datos abstractos comunes que se utilizan para mantener colecciones de datos.
+Para este taller se desarrolló un prototipo mínimo que demuestra capcidades reflexivas de JAVA y permita por lo menos cargar un bean (POJO) y derivar una aplicación Web a partir de él.
 
 ### APP WEB
 Aqui puede acceder a la aplicacion web para este proyecto.
@@ -27,6 +18,12 @@ Aqui puede acceder a la aplicacion web para este proyecto.
 * Maven
 * Git
 * Heroku
+
+### COMPILE
+
+   `mvn clean install`
+
+### EXECUTE
 
 ### JAVADOC
 

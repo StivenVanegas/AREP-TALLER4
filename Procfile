@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arem.designprimer.SparkWebApp
+web: java $JAVA_OPTS -cp 'target/classes' edu.escuelaing.arem.picospring.PicoSpringBoot edu.escuelaing.arem.picospringdemo.HelloController edu.escuelaing.arem.picospringdemo.BookService
